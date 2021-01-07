@@ -23,10 +23,10 @@ $("#start").on("click", function () {
   hide.attr("style", "display: none");
 
   question.text("Commonly used data types DO NOT Include:");
-  choicesOne.text("1. Quotes").addClass("choicebtn");
-  choicesTwo.text("2. Curly Brackets").addClass("choicebtn");
-  choicesThree.text("3. Parenthesis").addClass("choicebtn");
-  choicesFour.text("4. Square Brackets").addClass("choicebtn");
+  choicesOne.text("1. Strings").addClass("choicebtn");
+  choicesTwo.text("2. Booleans").addClass("choicebtn");
+  choicesThree.text("3. Alerts").addClass("choicebtn");
+  choicesFour.text("4. Numbers").addClass("choicebtn");
 
   // Append
   column.append(question, choicesOne, choicesTwo, choicesThree, choicesFour);
@@ -62,7 +62,7 @@ function newPage() {
 
   // Attributes
   column.empty();
-  question.text("Commonly used data types DO NOT Include:");
+  question.text("The condition in an if / else statement is enclosed within ___.");
   choicesOne.text("1. Quotes").addClass("choicebtn");
   choicesTwo.text("2. Curly Brackets").addClass("choicebtn");
   choicesThree.text("3. Parenthesis").addClass("choicebtn");
